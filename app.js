@@ -21,8 +21,6 @@ function divideTwoNumbers(number1, number2) {
 
 // START
 
-
-console.log("HELLO")
 const number1InputElement = document.getElementById(number1)
 function getNumber1InputElement() {
     const number1InputElement = document.getElementById(number1)
