@@ -1,7 +1,6 @@
 
 console.log("Welcome")
 
-
 function addTwoNumbers(number1, number2) {
     return number1 + number2;
 
@@ -64,6 +63,7 @@ addButtonElement.addEventListener("click", function (event) {
 
 
 });
+
 //SUBSTRACTION
 
 const substractButtonElement = document.getElementById("substractButton")
@@ -116,13 +116,3 @@ dividebuttonelement.addEventListener("click", function (event) {
     const totalElemnt = getInputElement("total")
     totalElemnt.value = total;
 });
-
-
-//end
-
-
-
-
-
-
-
