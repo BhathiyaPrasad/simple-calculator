@@ -48,10 +48,10 @@ function getInputValue(elementId) {
 
 //ADITION
 
-const addbuttonelement = document.getElementById("addbutton")
-addbuttonelement.addEventListener("click", function (event) {
+const addButtonElement = document.getElementById("addButton")
+addButtonElement.addEventListener("click", function (event) {
     event.preventDefault();
-    console.log("clicked Add button");
+    console.log("Clicked Add Button");
     const number1 = getInputValue("number1");
     const number2 = getInputValue("number2");
 
@@ -68,10 +68,10 @@ addbuttonelement.addEventListener("click", function (event) {
 });
 //SUBSTRACTION
 
-const substractButtonElement = document.getElementById("substractbutton")
+const substractButtonElement = document.getElementById("substractButton")
 substractButtonElement.addEventListener("click", function (event) {
     event.preventDefault();
-    console.log("clicked substract buttton");
+    console.log("Clicked substract buttton");
     const number1 = getInputValue("number1");
     const number2 = getInputValue("number2");
 
@@ -85,10 +85,10 @@ substractButtonElement.addEventListener("click", function (event) {
 
 //MULTIPLYING
 
-const multiplybuttonelement = document.getElementById("multiplybutton")
+const multiplybuttonelement = document.getElementById("multiplyButton")
 multiplybuttonelement.addEventListener("click", function (event) {
     event.preventDefault();
-    console.log("clicked multiply button");
+    console.log("Clicked multiply Button");
     const number1 = getInputValue("number1");
     const number2 = getInputValue("number2");
 
@@ -104,10 +104,10 @@ multiplybuttonelement.addEventListener("click", function (event) {
 
 //DIVIDING
 
-const dividebuttonelement = document.getElementById("dividebutton")
+const dividebuttonelement = document.getElementById("divideButton")
 dividebuttonelement.addEventListener("click", function (event) {
     event.preventDefault();
-    console.log("clicked divide buttton");
+    console.log("Clicked divide buttton");
     const number1 = getInputValue("number1");
     const number2 = getInputValue("number2");
 
